@@ -13,6 +13,7 @@
   justify-content: space-around;
   min-height: 320px;
   text-decoration: none;
+  margin-top: 40px  ;
 }
 img{
     width: 250px;
@@ -57,3 +58,5 @@ img{
   margin: 0;
   font-size: 30px;
 }
+
+
