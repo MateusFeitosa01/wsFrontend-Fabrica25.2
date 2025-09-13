@@ -1,0 +1,59 @@
+.carta {
+  border-radius: 12px;
+  text-align: center;
+  background-color: #f0f0f03f;
+  cursor: pointer;
+  padding: 15px;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  min-height: 320px;
+  text-decoration: none;
+}
+img{
+    width: 250px;
+}
+.carta:hover {
+  transform: translateY(-8px) scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+.botao-favorito {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+  color: #888;
+}
+
+.botao-favorito:hover {
+  transform: scale(1.2);
+}
+
+.botao-favorito.ativo {
+  color: gold;
+}
+
+.carta img {
+  width: 120px;
+}
+
+.carta p {
+  font-size: 15px;
+  color: #666;
+  margin: 4px 0;
+}
+
+.carta h3 {
+  color: #222;
+  margin: 0;
+  font-size: 30px;
+}

@@ -1,0 +1,48 @@
+body {
+  background-color: #bababa;
+  margin: 0;
+}
+
+header {
+  height: 190px;
+  width: 100%;
+  background-image: url(/imagens/pokebolas.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid red;
+}
+
+header img {
+  max-width: 300px;
+}
+
+header form .valorPesquisa {
+  background-color: #fff;
+  border: 1px solid red;
+  border-radius: 50px;
+  width: 350px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+header form .valorPesquisa:hover {
+  background-color: #e4e4e4;
+}
+
+header form button {
+  background-color: #f7c4c4;
+  border: 1px solid red;
+  border-radius: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 17px;
+}
+
+header form button:hover {
+  background-color: #f78080;
+}

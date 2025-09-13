@@ -1,0 +1,15 @@
+.botao-layout-mudar-grid{
+    position: absolute;
+    width: 80px;
+    right: 50px;
+    margin: 40px;
+    background-color: rgba(255, 255, 255, 0.373);
+    border-radius: 15px ;
+    font-size: 15px;
+    height: 50px;
+    text-align: center;
+    
+}
+.botao-layout-mudar-grid:hover{
+    background-color: rgba(255, 255, 255, 0.61);
+}
