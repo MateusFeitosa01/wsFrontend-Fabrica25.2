@@ -14,7 +14,7 @@
   justify-content: space-between;
 }
 
-/* Botão de mudar grid */
+
 .botao-mudar-grid {
   background-color: pink;
   padding: 10px 20px;
@@ -23,19 +23,15 @@
   border-radius: 8px;
 }
 
-/* --- RESPONSIVO --- */
-
-/* Tablets */
-
 @media (max-width: 1024px) {
   .container-de-carta {
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
   }
-  
+
 }
 
-/* Celulares */
+
 @media (max-width: 600px) {
   .container-de-carta {
     grid-template-columns: 1fr;
