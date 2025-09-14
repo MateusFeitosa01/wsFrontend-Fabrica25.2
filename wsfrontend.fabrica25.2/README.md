@@ -16,6 +16,9 @@ Um site interativo de fãs de Pokémon, desenvolvido com **Next.js** e React, qu
 - Layout limpo e moderno.
 
 ---
+## Deploy do projeto
+
+- A aplicação está disponível em: https://ws-frontend-fabrica25-2.vercel.app/
 
 ## Tecnologias Utilizadas
 
